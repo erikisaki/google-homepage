@@ -2,21 +2,20 @@ html {
 	min-width: 850px;
 }
 
-body {    /*When aligning elements with 'position' and 'float', always define margin and padding for the <body> element. This is to avoid visual differences in different browsers.*/
+body {  
 	padding: 0;
 	margin: 0;
 	height: auto;
 }
 
 .nav-bar {
-	display: block;    /*<div> default as 'block'*/
+	display: block;  
 }
 
 ul#menu {
-	list-style-type: none;    /*delete the bullet*/
+	list-style-type: none;    
 	margin: 0;
 	padding: 0;
-	/*border: 3px solid #73AD21;    用于校正*/
 	overflow: auto;
 }
 
